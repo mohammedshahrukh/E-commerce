@@ -1,0 +1,214 @@
+header {
+    background-color: black;
+    padding: 10px 20px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Style for the logo */
+  .logo img {
+    max-height: 50px; /* You can adjust the height as needed */
+    /* max-width:100px; */
+  }
+
+  /* Style for the navigation links */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav ul li {
+    margin-left: 20px; /* Space between menu items */
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Added transition */
+  }
+
+  nav ul li a:hover {
+    color:red;
+    transform: scale(1.1);
+  }
+ /* Styling for the Welcome Section */
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* Heading styles */
+  .welcome-section h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .welcome-section h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .welcome-section button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .welcome-section button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .welcome-section button:focus {
+    outline: none;
+  }
+  .shop-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading Style */
+  .shop-section h2 {
+    font-size: 2.0rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Grid layout for images */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  /* Grid item styles */
+  .grid-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .grid-item p {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 0;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  /* Hover effect */
+  .grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    transition: transform 0.3s ease;
+  }
+  .feature-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color:  #f9f9f9;
+  }
+  .feature-section h2 {
+    font-size: 2.0rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  /* Style for the Testimonials Section */
+.testimonials-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the testimonials container */
+  .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  /* Individual testimonial styling */
+  .testimonial-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px; /* Limit width */
+  }
+  
+  .testimonial-item p {
+    font-size: 1.2rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-item span {
+    font-size: 1rem;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Hover effect on testimonials */
+  .testimonial-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
